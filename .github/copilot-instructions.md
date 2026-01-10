@@ -313,7 +313,7 @@ useHotkeys([['mod+/', () => openHelp('viewname')]]);
 ## External Contributors
 
 ### Getting Started
-1. Fork the repository: https://github.com/PaulAtkins88/budgetwise-planner
+1. Fork the repository: https://github.com/PaulAtkins88/bucketwise-planner
 2. Clone your fork and follow [CONTRIBUTING.md](../CONTRIBUTING.md)
 3. Read [docs/ARCHITECTURE.md](../docs/ARCHITECTURE.md) for system overview
 4. Read [docs/SELF_HOSTING.md](../docs/SELF_HOSTING.md) for local development setup

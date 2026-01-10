@@ -281,4 +281,4 @@ Check [docs/FEATURE_WISHLIST.md](FEATURE_WISHLIST.md) for planned features and c
 
 ---
 
-**Questions?** See [docs/FAQ.md](FAQ.md) or open an issue on [GitHub](https://github.com/PaulAtkins88/budgetwise-planner).
+**Questions?** See [docs/FAQ.md](FAQ.md) or open an issue on [GitHub](https://github.com/PaulAtkins88/bucketwise-planner).

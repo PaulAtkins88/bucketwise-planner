@@ -2,7 +2,7 @@
 
 Ideas for future enhancements to **Bucketwise Planner**. Contributions welcome!
 
-This list is community-driven. Have an idea? Open an [issue](https://github.com/PaulAtkins88/budgetwise-planner/issues) or [discussion](https://github.com/PaulAtkins88/budgetwise-planner/discussions).
+This list is community-driven. Have an idea? Open an [issue](https://github.com/PaulAtkins88/bucketwise-planner/issues) or [discussion](https://github.com/PaulAtkins88/bucketwise-planner/discussions).
 
 ---
 
@@ -242,7 +242,7 @@ These features are now part of the core app:
 Found a feature idea? We'd love to hear it!
 
 1. **Check existing issues/discussions** to avoid duplicates
-2. **Open an issue** with label `enhancement` or start a [discussion](https://github.com/PaulAtkins88/budgetwise-planner/discussions)
+2. **Open an issue** with label `enhancement` or start a [discussion](https://github.com/PaulAtkins88/bucketwise-planner/discussions)
 3. **Describe the feature**: what problem does it solve? who benefits?
 4. **Prototype or wireframe** if possible (helps clarify scope)
 5. **Ready to implement?** See [CONTRIBUTING.md](../CONTRIBUTING.md) for code guidelines

@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: backend/Dockerfile
-    image: budgetwise-planner-backend:local
+    image: bucketwise-planner-backend:local
     environment:
       NODE_ENV: production
       PORT: 3000
@@ -29,7 +29,7 @@ services:
     build:
       context: .
       dockerfile: frontend/Dockerfile
-    image: budgetwise-planner-frontend:local
+    image: bucketwise-planner-frontend:local
     depends_on:
       - backend
     ports:

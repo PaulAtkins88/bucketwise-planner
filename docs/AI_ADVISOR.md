@@ -119,7 +119,7 @@ For higher usage, upgrade to Google Cloud Platform's paid plan.
 
 If you see this message:
 
-> **AI Chat is disabled** — To enable, add `GEMINI_API_KEY` to backend `.env` and set `AI_ENABLED=true`. See [README](https://github.com/PaulAtkins88/budgetwise-planner#ai-advisor) for instructions.
+> **AI Chat is disabled** — To enable, add `GEMINI_API_KEY` to backend `.env` and set `AI_ENABLED=true`. See [README](https://github.com/PaulAtkins88/bucketwise-planner#ai-advisor) for instructions.
 
 Follow the "Enabling AI Advisor" section above.
 
@@ -209,4 +209,4 @@ This is not endorsed by Scott Pape or The Barefoot Investor. It's community-impl
 
 ---
 
-**Need help?** See [docs/FAQ.md](FAQ.md) or open an issue on [GitHub](https://github.com/PaulAtkins88/budgetwise-planner/issues).
+**Need help?** See [docs/FAQ.md](FAQ.md) or open an issue on [GitHub](https://github.com/PaulAtkins88/bucketwise-planner/issues).

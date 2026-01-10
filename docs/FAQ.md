@@ -143,7 +143,7 @@ If transactions appear on the wrong date:
 **If you still see issues:**
 - Check backend logs: `docker compose logs backend | grep -i date`
 - Verify database timezone: `SELECT now() AT TIME ZONE 'UTC'`
-- Open an issue on [GitHub](https://github.com/PaulAtkins88/budgetwise-planner/issues)
+- Open an issue on [GitHub](https://github.com/PaulAtkins88/bucketwise-planner/issues)
 
 ### Database connection error
 
@@ -189,8 +189,8 @@ Ensure you've set `GEMINI_API_KEY` and `AI_ENABLED=true` in backend `.env`. See 
 
 ### I found a bug!
 
-1. Check [existing issues](https://github.com/PaulAtkins88/budgetwise-planner/issues)
-2. [Create a bug report](https://github.com/PaulAtkins88/budgetwise-planner/issues/new?template=bug_report.md)
+1. Check [existing issues](https://github.com/PaulAtkins88/bucketwise-planner/issues)
+2. [Create a bug report](https://github.com/PaulAtkins88/bucketwise-planner/issues/new?template=bug_report.md)
 3. Include steps to reproduce and environment details
 
 ### I want to contribute code
@@ -207,7 +207,7 @@ Check [docs/FEATURE_WISHLIST.md](FEATURE_WISHLIST.md) for planned features and c
 
 ### Can I suggest a feature?
 
-Yes! [Open a feature request](https://github.com/PaulAtkins88/budgetwise-planner/issues/new?template=feature_request.md) or start a [discussion](https://github.com/PaulAtkins88/budgetwise-planner/discussions).
+Yes! [Open a feature request](https://github.com/PaulAtkins88/bucketwise-planner/issues/new?template=feature_request.md) or start a [discussion](https://github.com/PaulAtkins88/bucketwise-planner/discussions).
 
 ---
 
@@ -233,9 +233,9 @@ Bucketwise Planner is in **v0.1.0** (initial release). It's functional but may h
 - 🚀 [docs/SELF_HOSTING.md](SELF_HOSTING.md) — Setup and deployment
 - 🏗️ [docs/ARCHITECTURE.md](ARCHITECTURE.md) — System design
 - 💬 [CONTRIBUTING.md](../CONTRIBUTING.md) — Development guide
-- 🐛 [GitHub Issues](https://github.com/PaulAtkins88/budgetwise-planner/issues) — Report bugs
+- 🐛 [GitHub Issues](https://github.com/PaulAtkins88/bucketwise-planner/issues) — Report bugs
 - 💡 [GitHub Discussions](https://github.com/PaulAtkins88/budgetwise-planner/discussions) — Ask questions
 
 ---
 
-**Still stuck?** Open an issue or start a discussion on [GitHub](https://github.com/PaulAtkins88/budgetwise-planner)!
+**Still stuck?** Open an issue or start a discussion on [GitHub](https://github.com/PaulAtkins88/bucketwise-planner)!

@@ -1,8 +1,8 @@
 # Bucketwise Planner
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Tests](https://img.shields.io/badge/tests-54%20passing-brightgreen)](https://github.com/PaulAtkins88/budgetwise-planner)
-[![Release](https://img.shields.io/badge/release-v0.1.0-blue)](https://github.com/PaulAtkins88/budgetwise-planner/releases)
+[![Tests](https://img.shields.io/badge/tests-54%20passing-brightgreen)](https://github.com/PaulAtkins88/bucketwise-planner)
+[![Release](https://img.shields.io/badge/release-v0.1.0-blue)](https://github.com/PaulAtkins88/bucketwise-planner/releases)
 
 Multi-user budgeting app implementing Scott Pape's Barefoot Investor methodology. Fortnightly budgeting with bucket allocations (60/10/10/20), automated debt snowball payoff, transaction tracking, and optional AI financial advisor.
 
@@ -77,8 +77,8 @@ This project implements the budgeting methodology created by **Scott Pape** in h
 
 ```bash
 # Clone repository
-git clone https://github.com/PaulAtkins88/budgetwise-planner.git
-cd budgetwise-planner
+git clone https://github.com/PaulAtkins88/bucketwise-planner.git
+cd bucketwise-planner
 
 # Copy environment template
 cp .env.example .env
@@ -279,8 +279,8 @@ MIT License — Free for personal and commercial use. See [LICENSE](LICENSE) for
 ## 🆘 Support & Community
 
 - 📖 **Documentation:** [docs/](docs/), [README files](backend/README.md)
-- 💬 **Questions:** [GitHub Discussions](https://github.com/PaulAtkins88/budgetwise-planner/discussions)
-- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/PaulAtkins88/budgetwise-planner/issues)
+- 💬 **Questions:** [GitHub Discussions](https://github.com/PaulAtkins88/bucketwise-planner/discussions)
+- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/PaulAtkins88/bucketwise-planner/issues)
 - 🆘 **Help:** [SUPPORT.md](SUPPORT.md) and [docs/FAQ.md](docs/FAQ.md)
 
 ## 🌟 Roadmap

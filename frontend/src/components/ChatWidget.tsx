@@ -1,16 +1,16 @@
 import {
-    ActionIcon,
-    Alert,
-    Badge,
-    Divider,
-    Drawer,
-    Group,
-    Loader,
-    Paper,
-    ScrollArea,
-    Stack,
-    Text,
-    TextInput,
+  ActionIcon,
+  Alert,
+  Badge,
+  Divider,
+  Drawer,
+  Group,
+  Loader,
+  Paper,
+  ScrollArea,
+  Stack,
+  Text,
+  TextInput,
 } from '@mantine/core';
 import { modals } from '@mantine/modals';
 import { IconSend, IconTrash } from '@tabler/icons-react';
@@ -196,7 +196,7 @@ export function ChatWidget() {
                 </ol>
               </Text>
               <Text size="xs" c="dimmed">
-                See <a href="https://github.com/PaulAtkins88/budgetwise-planner/blob/main/docs/AI_ADVISOR.md" target="_blank" rel="noopener noreferrer">AI_ADVISOR.md</a> for details.
+                See <a href="https://github.com/PaulAtkins88/bucketwise-planner/blob/main/docs/AI_ADVISOR.md" target="_blank" rel="noopener noreferrer">AI_ADVISOR.md</a> for details.
               </Text>
             </Stack>
           </Alert>

@@ -22,8 +22,8 @@ The fastest way to get Bucketwise Planner running.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/PaulAtkins88/budgetwise-planner.git
-cd budgetwise-planner
+git clone https://github.com/PaulAtkins88/bucketwise-planner.git
+cd bucketwise-planner
 ```
 
 ### 2. Configure Environment
@@ -354,7 +354,7 @@ pnpm install
 
 - 📖 See [README.md](../README.md) for overview
 - 💬 Check [docs/FAQ.md](FAQ.md)
-- 🐛 Report issues on [GitHub](https://github.com/PaulAtkins88/budgetwise-planner/issues)
+- 🐛 Report issues on [GitHub](https://github.com/PaulAtkins88/bucketwise-planner/issues)
 - 🆘 See [SUPPORT.md](../SUPPORT.md)
 
 ---

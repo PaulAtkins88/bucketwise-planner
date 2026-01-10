@@ -1,7 +1,7 @@
 name: Bucketwise Planner
 description: Multi-user personal budgeting app implementing the Barefoot Investor method by Scott Pape, with fortnightly budgeting cycles, debt snowball payoff tracking, and bucket-based spending allocations. Optional AI advisor powered by Google Gemini.
-website_url: https://github.com/PaulAtkins88/budgetwise-planner
-source_code_url: https://github.com/PaulAtkins88/budgetwise-planner
+website_url: https://github.com/PaulAtkins88/bucketwise-planner
+source_code_url: https://github.com/PaulAtkins88/bucketwise-planner
 licenses:
   - MIT
 platforms:
@@ -40,23 +40,23 @@ project_status: Active
   # - Feature requests and contributions welcome
 demovideos: []
 screenshots: []
-  # - https://github.com/PaulAtkins88/budgetwise-planner/raw/main/screenshots/01-dashboard.png
-  # - https://github.com/PaulAtkins88/budgetwise-planner/raw/main/screenshots/02-fortnights.png
-  # - https://github.com/PaulAtkins88/budgetwise-planner/raw/main/screenshots/03-debts.png
-  # - https://github.com/PaulAtkins88/budgetwise-planner/raw/main/screenshots/04-transactions.png
+  # - https://github.com/PaulAtkins88/bucketwise-planner/raw/main/screenshots/01-dashboard.png
+  # - https://github.com/PaulAtkins88/bucketwise-planner/raw/main/screenshots/02-fortnights.png
+  # - https://github.com/PaulAtkins88/bucketwise-planner/raw/main/screenshots/03-debts.png
+  # - https://github.com/PaulAtkins88/bucketwise-planner/raw/main/screenshots/04-transactions.png
 installation:
   - type: docker-compose
-    link: https://github.com/PaulAtkins88/budgetwise-planner/blob/main/docker-compose.yml
+    link: https://github.com/PaulAtkins88/bucketwise-planner/blob/main/docker-compose.yml
     description: Docker Compose multi-user setup with PostgreSQL, frontend, and backend
   - type: docker
-    link: https://github.com/PaulAtkins88/budgetwise-planner/blob/main/backend/Dockerfile
+    link: https://github.com/PaulAtkins88/bucketwise-planner/blob/main/backend/Dockerfile
     description: Docker images available for backend and frontend
   - type: manual
-    link: https://github.com/PaulAtkins88/budgetwise-planner/blob/main/docs/SELF_HOSTING.md
+    link: https://github.com/PaulAtkins88/bucketwise-planner/blob/main/docs/SELF_HOSTING.md
     description: Manual setup with Node.js and PostgreSQL
 documentation:
-  - https://github.com/PaulAtkins88/budgetwise-planner/blob/main/docs/SELF_HOSTING.md
-  - https://github.com/PaulAtkins88/budgetwise-planner/blob/main/docs/ARCHITECTURE.md
-  - https://github.com/PaulAtkins88/budgetwise-planner/blob/main/docs/FAQ.md
-  - https://github.com/PaulAtkins88/budgetwise-planner/blob/main/CONTRIBUTING.md
-issue_tracker: https://github.com/PaulAtkins88/budgetwise-planner/issues
+  - https://github.com/PaulAtkins88/bucketwise-planner/blob/main/docs/SELF_HOSTING.md
+  - https://github.com/PaulAtkins88/bucketwise-planner/blob/main/docs/ARCHITECTURE.md
+  - https://github.com/PaulAtkins88/bucketwise-planner/blob/main/docs/FAQ.md
+  - https://github.com/PaulAtkins88/bucketwise-planner/blob/main/CONTRIBUTING.md
+issue_tracker: https://github.com/PaulAtkins88/bucketwise-planner/issues

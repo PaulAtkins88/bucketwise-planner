@@ -15,8 +15,8 @@ Start with our comprehensive docs:
 
 ### 🐛 Report a Bug
 
-1. Check [existing issues](https://github.com/PaulAtkins88/budgetwise-planner/issues) first
-2. [Create a new bug report](https://github.com/PaulAtkins88/budgetwise-planner/issues/new?template=bug_report.md)
+1. Check [existing issues](https://github.com/PaulAtkins88/bucketwise-planner/issues) first
+2. [Create a new bug report](https://github.com/PaulAtkins88/bucketwise-planner/issues/new?template=bug_report.md)
 3. Include:
    - Steps to reproduce
    - Expected vs actual behavior
@@ -25,14 +25,14 @@ Start with our comprehensive docs:
 
 ### 💡 Request a Feature
 
-1. [Open a feature request](https://github.com/PaulAtkins88/budgetwise-planner/issues/new?template=feature_request.md)
+1. [Open a feature request](https://github.com/PaulAtkins88/bucketwise-planner/issues/new?template=feature_request.md)
 2. Describe the use case and benefits
 3. Suggest how it would work
 
 ### 💬 Ask a Question
 
 1. Check [docs/FAQ.md](docs/FAQ.md) for common questions
-2. [Start a Discussion](https://github.com/PaulAtkins88/budgetwise-planner/discussions) for general questions
+2. [Start a Discussion](https://github.com/PaulAtkins88/bucketwise-planner/discussions) for general questions
 3. Search existing issues/discussions for similar topics
 
 ## Response Expectations
