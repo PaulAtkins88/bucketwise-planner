@@ -75,23 +75,72 @@ This project implements the budgeting methodology created by **Scott Pape** in h
 
 ### Docker Compose (Recommended)
 
+**Docker Hub:** [Coming soon]
+
+Example `docker-compose.yml`:
+
+```yaml
+services:
+  postgres:
+    image: postgres:14-alpine
+    environment:
+      POSTGRES_DB: budgetwise
+      POSTGRES_USER: budgetwise
+      POSTGRES_PASSWORD: your-secure-password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  backend:
+    image: bucketwise-planner-backend:local
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      PG_CONNECTION_STRING: postgresql://budgetwise:your-secure-password@postgres:5432/budgetwise
+      JWT_SECRET: your-jwt-secret-min-32-chars
+      ADMIN_SECRET: your-admin-secret-min-32-chars
+      AI_ENABLED: false
+      # GEMINI_API_KEY: your-optional-ai-key
+    ports:
+      - "3000:3000"
+    depends_on:
+      - postgres
+    restart: unless-stopped
+
+  frontend:
+    image: bucketwise-planner-frontend:local
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    ports:
+      - "5555:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+```
+
+**Quick commands:**
+
 ```bash
-# Clone repository
+# Clone and start
 git clone https://github.com/PaulAtkins88/bucketwise-planner.git
 cd bucketwise-planner
-
-# Copy environment template
 cp .env.example .env
-
-# Edit .env with your database details and secrets
-# (see .env.example for all variables)
-
-# Start services
+# Edit .env with your secrets (JWT_SECRET, ADMIN_SECRET, etc.)
 docker compose up -d
 
 # Access at http://localhost:5555
-# Create account via "Sign Up"
+# First time: Click "Sign Up" to create your account
 ```
+
+> [!TIP]
+> Generate secure secrets with: `openssl rand -base64 32`
 
 **Full deployment guide:** [docs/SELF_HOSTING.md](docs/SELF_HOSTING.md)
 
