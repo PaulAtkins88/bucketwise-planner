@@ -6,7 +6,7 @@ If you discover a security vulnerability in Bucketwise Planner, please report it
 
 **Do not open a public GitHub issue.** Instead:
 
-1. **Email your report to:** [Add email or use GitHub Security Advisories]
+1. **Email your report to:** [paulatkins88@gmail.com](mailto:paulatkins88@gmail.com)
 2. **Include:**
    - Description of the vulnerability
    - Steps to reproduce (if possible)
