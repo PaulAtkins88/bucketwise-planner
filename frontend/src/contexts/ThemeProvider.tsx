@@ -1,31 +1,33 @@
 import { useMantineColorScheme } from '@mantine/core';
-import { useEffect } from 'react';
+import { useEffect, useLayoutEffect } from 'react';
 
-export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  return <>{children}</>;
-}
-
+/**
+ * Hook to manage theme state and persistence.
+ * Initializes from localStorage and keeps it in sync with Mantine's color scheme.
+ */
 export function useTheme() {
   const { colorScheme, setColorScheme } = useMantineColorScheme({
     keepTransitions: true,
   });
 
-  useEffect(() => {
-    // Sync localStorage with Mantine color scheme
+  // Initialize from localStorage on mount (one-time)
+  useLayoutEffect(() => {
     const stored = localStorage.getItem('bucketwise-theme');
     if (stored === 'light' || stored === 'dark') {
       if (stored !== colorScheme) {
         setColorScheme(stored);
       }
-    } else if (colorScheme) {
-      localStorage.setItem('bucketwise-theme', colorScheme);
     }
-  }, [colorScheme, setColorScheme]);
+  }, []);
+
+  // Sync localStorage whenever colorScheme changes (e.g., user toggles theme)
+  useEffect(() => {
+    localStorage.setItem('bucketwise-theme', colorScheme);
+  }, [colorScheme]);
 
   const toggleTheme = () => {
     const newTheme = colorScheme === 'light' ? 'dark' : 'light';
     setColorScheme(newTheme);
-    localStorage.setItem('bucketwise-theme', newTheme);
   };
 
   return {

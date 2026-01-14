@@ -129,7 +129,7 @@ export function HelpProvider({ children }: { children: ReactNode }) {
               )}
 
               {filteredSections.map((section) => (
-                <Stack key={section.title} gap={4} p="xs" style={{ borderRadius: 8, background: 'var(--mantine-color-dark-7)' }}>
+                <Stack key={section.title} gap={4} p="xs" style={{ borderRadius: 8, background: 'var(--mantine-color-default-hover)' }}>
                   <Text fw={700}>{section.title}</Text>
                   <Text size="sm" c={textMuted}>
                     {section.body}

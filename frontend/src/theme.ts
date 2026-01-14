@@ -82,8 +82,4 @@ export const darkTheme = createTheme({
   ...sharedThemeConfig,
 });
 
-export const lightTheme = createTheme({
-  ...sharedThemeConfig,
-});
-
 export const theme = darkTheme;

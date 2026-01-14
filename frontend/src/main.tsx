@@ -6,7 +6,6 @@ import '@mantine/notifications/styles.css';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App.js';
-import { ThemeProvider } from './contexts/ThemeProvider.js';
 import './styles/theme-transitions.css';
 import { darkTheme } from './theme.js';
 
@@ -22,9 +21,7 @@ createRoot(document.getElementById('root')!).render(
       theme={darkTheme}
       defaultColorScheme={getInitialColorScheme()}
     >
-      <ThemeProvider>
-        <App />
-      </ThemeProvider>
+      <App />
     </MantineProvider>
   </StrictMode>
 );
