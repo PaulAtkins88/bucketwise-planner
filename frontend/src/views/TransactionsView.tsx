@@ -137,6 +137,13 @@ export function TransactionsView() {
     validate: {
       description: (value) => (!value.trim() ? 'Description is required' : null),
       amountDollars: (value) => (value <= 0 ? 'Amount must be greater than 0' : null),
+      destinationBucket: (value, values) => {
+        if (values.kind === 'transfer') {
+          if (!value) return 'Destination bucket is required for transfers';
+          if (value === values.sourceBucket) return 'Destination must differ from source bucket';
+        }
+        return null;
+      },
       occurredAt: (value) => {
         if (!value) return null;
         return normalizeDateInput(value) ? null : 'Enter a valid date and time';
